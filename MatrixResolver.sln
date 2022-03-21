@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixResolver", "MatrixResolver\MatrixResolver.csproj", "{A19DA734-86BE-4BDB-BA15-61B2966B763F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixResolver", "MatrixResolver\MatrixResolver.csproj", "{A2AAD03D-4D97-4386-9AFF-647A3D18FEE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A19DA734-86BE-4BDB-BA15-61B2966B763F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A19DA734-86BE-4BDB-BA15-61B2966B763F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A19DA734-86BE-4BDB-BA15-61B2966B763F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A19DA734-86BE-4BDB-BA15-61B2966B763F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AAD03D-4D97-4386-9AFF-647A3D18FEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AAD03D-4D97-4386-9AFF-647A3D18FEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AAD03D-4D97-4386-9AFF-647A3D18FEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AAD03D-4D97-4386-9AFF-647A3D18FEE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
