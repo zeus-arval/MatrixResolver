@@ -8,10 +8,9 @@ namespace MatrixResolver
         {
             int rows = 3;
             int columns = 3;
-            int[][] array;
-            MatrixGenerator.GenerateRandomJaggedArray(rows, columns, out array);
+            Matrix matrix;
+            MatrixGenerator.GenerateRandomMatrix(rows, columns, out matrix);
 
-            Matrix matrix = new Matrix(array);
             matrix.PrintMatrix();
         }
     }
