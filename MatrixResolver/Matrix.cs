@@ -75,7 +75,7 @@ namespace MatrixResolver
                     Console.Write($" {formattedString} ");
                 }
 
-                Console.WriteLine(RepeatWhiteSpaces(1) + VERTICAL_LINE);
+                Console.WriteLine(RepeatWhiteSpaces(2) + VERTICAL_LINE);
             }
         }
     }
