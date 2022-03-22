@@ -17,7 +17,7 @@ namespace MatrixResolver
         /// <param name="matrix">Matrix</param>
         /// <param name="rows">Rows count. Must be more than 0.</param>
         /// <param name="columns">Rows count. Must be more than 0.</param>
-        public static void GenerateRandomMatrix(in int rows, in int columns, out Matrix matrix)
+        public static void GenerateRandomMatrix(int rows, int columns, out Matrix matrix)
         {
             if (rows <= 0 || columns <= 0)
             {
