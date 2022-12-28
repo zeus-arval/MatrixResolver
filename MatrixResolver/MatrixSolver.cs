@@ -8,7 +8,6 @@ namespace MatrixResolver
 {
     public static class MatrixSolver
     {
-
         public static Matrix Multiply(this Matrix matrix, in Matrix targetMatrix)
         {
             if(matrix.ColumnsCount != targetMatrix.RowsCount)

@@ -11,29 +11,29 @@ namespace MatrixResolver
             //Matrix matrix;
             //MatrixGenerator.GenerateRandomMatrix(rows, columns, out matrix);
 
-            Matrix matrix = new(new int[3][]{
-                new int[]{ 5, 8, -4},
-                new int[]{ 6, 9, -5},
-                new int[]{ 4, 7, -3}
-            });
-
-            Matrix target = new(new int[3][]{
-                new int[]{ 3, 2, 5},
-                new int[]{ 4, -1, 3},
-                new int[]{ 9, 6, 5}
-            });
-
-            //Matrix matrix = new(new int[rows][]{
-            //    new int[]{ 5, 8, -4 },
-            //    new int[]{ 6, 9, -5 },
-            //    new int[]{ 4, 7, -3 }
+            //Matrix matrix = new(new int[3][]{
+            //    new int[]{ 5, 8, -4},
+            //    new int[]{ 6, 9, -5},
+            //    new int[]{ 4, 7, -3}
             //});
 
-            //Matrix target = new(new int[columns][]{
-            //    new int[]{ 2 },
-            //    new int[]{ -3 },
-            //    new int[]{ 1 },
+            //Matrix target = new(new int[3][]{
+            //    new int[]{ 3, 2, 5},
+            //    new int[]{ 4, -1, 3},
+            //    new int[]{ 9, 6, 5}
             //});
+
+            Matrix matrix = new(new int[rows][]{
+                new int[]{ 5, 8, -4 },
+                new int[]{ 6, 9, -5 },
+                new int[]{ 4, 7, -3 }
+            });
+
+            Matrix target = new(new int[columns][]{
+                new int[]{ 2 },
+                new int[]{ -3 },
+                new int[]{ 1 },
+            });
 
             matrix.PrintMatrix();
             Console.WriteLine();
